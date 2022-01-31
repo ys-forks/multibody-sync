@@ -3,8 +3,8 @@ save_path: "ckpt/solid-conf"
 
 flow_model: "config/solid-flow.yaml"
 
-train_base_folder: "../dataset/mbs-shapewhole"
-val_base_folder: "../dataset/mbs-shapewhole"
+train_base_folder: "dataset/mbs-shapewhole"
+val_base_folder: "dataset/mbs-shapewhole"
 
 epochs: 50
 batch_size: 32

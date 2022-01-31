@@ -1,8 +1,8 @@
 type: "flow"
 save_path: "ckpt/articulated-flow"
 
-train_base_folder: "../dataset/mbs-shapepart"
-val_base_folder: "../dataset/mbs-shapepart"
+train_base_folder: "dataset/mbs-shapepart"
+val_base_folder: "dataset/mbs-shapepart"
 
 epochs: 80
 batch_size: 32

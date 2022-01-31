@@ -5,9 +5,9 @@ mot_model: "config/articulated-mot.yaml"
 
 save_path: "ckpt/articulated-full"
 
-train_base_folder: "../dataset/mbs-shapepart"
-val_base_folder: "../dataset/mbs-shapepart"
-test_base_folder: "../dataset/mbs-sapien"
+train_base_folder: "dataset/mbs-shapepart"
+val_base_folder: "dataset/mbs-shapepart"
+test_base_folder: "dataset/mbs-sapien"
 
 epochs: 10
 batch_size: 4

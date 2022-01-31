@@ -1,8 +1,8 @@
 type: "mot"
 save_path: "ckpt/articulated-mot"
 
-train_base_folder: "../dataset/mbs-shapepart"
-val_base_folder: "../dataset/mbs-shapepart"
+train_base_folder: "dataset/mbs-shapepart"
+val_base_folder: "dataset/mbs-shapepart"
 
 epochs: 50
 batch_size: 16

@@ -5,9 +5,9 @@ mot_model: "config/solid-mot.yaml"
 
 save_path: "ckpt/solid-full"
 
-train_base_folder: "../dataset/mbs-shapewhole"
-val_base_folder: "../dataset/mbs-shapewhole"
-test_base_folder: "../dataset/mbs-dynlab"
+train_base_folder: "dataset/mbs-shapewhole"
+val_base_folder: "dataset/mbs-shapewhole"
+test_base_folder: "dataset/mbs-dynlab"
 
 epochs: 10
 batch_size: 4

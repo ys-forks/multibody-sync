@@ -3,8 +3,8 @@ save_path: "ckpt/articulated-conf"
 
 flow_model: "config/articulated-flow.yaml"
 
-train_base_folder: "../dataset/mbs-shapepart"
-val_base_folder: "../dataset/mbs-shapepart"
+train_base_folder: "dataset/mbs-shapepart"
+val_base_folder: "dataset/mbs-shapepart"
 
 epochs: 50
 batch_size: 32
